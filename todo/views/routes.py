@@ -31,7 +31,7 @@ def get_todo(id):
     })
 
 @api.route('/todos', methods=['POST'])
-def create_todo(id):
+def create_todo():
     return jsonify({
         "id": id,
         "title": "Watch CSSE6400 Lecture",
