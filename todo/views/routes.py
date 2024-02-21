@@ -30,7 +30,7 @@ def get_todo(id):
         "updated_at": "2023-02-20T00:00:00"
     })
 
-@api.route('todos/<int:id>', methods=['POST'])
+@api.route('todos/, methods=['POST'])
 def create_todo(id):
     return jsonify({
         "id": id,
